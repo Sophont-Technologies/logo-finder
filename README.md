@@ -1,4 +1,4 @@
 # logo-finder
 Company logo finder
 
-Check out https://logo-finder-sooty.vercel.app
+Check it out at: https://logo-finder-sooty.vercel.app
