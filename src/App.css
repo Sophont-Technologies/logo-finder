@@ -40,7 +40,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
 }
-#a{
+img{
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
@@ -48,8 +48,8 @@ h1{
 color: cyan;
 font-weight: bolder;
 
-  min-height:100px;
-  min-width: 100px;
+  max-height:100px;
+  max-width: 100px;
 padding: 100px;
 }
 button:hover{

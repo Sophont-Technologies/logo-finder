@@ -3,7 +3,7 @@ import axios from 'axios'
 import {useState} from 'react'
 function App() {
 const [name, setName] = useState('')
-const [url,setUrl] = useState('')
+const [url,setUrl] = useState('logo.jpg')
 const handleChange = (event) => {
  setName(event.target.value); 
 
