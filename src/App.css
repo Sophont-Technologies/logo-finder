@@ -1,7 +1,65 @@
-#root {
+body{
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(circle at center center, green,rgb(40, 30, 141)), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+}
+input,button{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: lemonchiffon;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  background-color: blueviolet;
+  color: goldenrod;
+  padding: 45px;
+
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+ 
+  padding-left: 100px;
+}
+h1{
+  font-size: 75px;
+}
+
+#btn{
+ 
+  background-color: lawngreen;
+ width: 500px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 25px double goldenrod;
+color: cyan;
+font-weight: bolder;
+
+  max-height:100px;
+  max-width: 100px;
+padding: 100px;
+}
+button:hover{
+  border: 2px solid powderblue;
+  background-color: coral;
+}
+button:active{
+  padding: 21px;
+}
+.app{
+  align-items: center;
 }
 
