@@ -1,3 +1,4 @@
+
 import './App.css'
 import axios from 'axios'
 import {useState} from 'react'
@@ -26,8 +27,9 @@ setUrl(`https://logo.clearbit.com/${name}`)
 </div>
     
 <img draggable='false' src={url} alt="logo not found" id='a' />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
